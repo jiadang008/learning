@@ -1,0 +1,25 @@
+.firstDiv{
+    color:lightcoral;
+
+}
+.secondDiv{
+    color:lightseagreen;
+
+}
+#singledout{
+    color:lightskyblue;
+    text-decoration:line-through;
+}
+*{
+    background-color:lightgoldenrodyellow;
+}
+h3+ul{
+    border:20px dotted plum;
+}
+li a{
+    color: paleturquoise;
+}
+li a[href="www.npr.org"]{
+    color:peru;
+    border: 5px solid lightgray;
+}

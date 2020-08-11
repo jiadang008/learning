@@ -1,0 +1,97 @@
+/*#main{
+    background-color: thistle;
+    width: 100px;
+    height: 100px;
+    animation: 5s linear mydiv;
+}
+
+@keyframes mydiv{
+    from{background-color: turquoise; width: 500px; height: 500px;}
+    to{background-color: black; width: 1000px; height: 1000px;}
+}
+*/
+
+/*#main{
+    display: inline-flex;
+    padding-left: 200px;
+}
+#div1{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: lightblue;
+    animation: 5s linear alldiv;
+}
+#div2{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: lightcoral;
+    animation: 5s linear alldiv;
+}
+#div3{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: orange;
+    animation: 5s linear alldiv;
+}
+@keyframes alldiv{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+*/
+#main{
+    display: inline-flex;
+    padding-left: 200px;
+}
+#div1{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: lightblue;
+    animation: 5s linear grow;
+}
+#div2{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: lightcoral;
+    animation: 5s linear rotate;
+}
+#div3{
+
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background-color: orange;
+    animation: 5s linear skew;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+@keyframes grow{
+    from{background-color: thistle; width: 0px; height: 0px;}
+    to{background-color: violet; width: 300px; height: 300px;}
+}
+
+@keyframes skew{
+    0%{transform: skew(0deg);}
+    25%{transform: skew(90deg);}
+    50%{transform: skew(180deg);}
+    75%{transform: skew(270deg);}
+    100%{transform: skew(360deg);}
+}

@@ -1,0 +1,21 @@
+
+body{
+    background:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&w=1000&q=80);
+    background-repeat:no-repeat;
+}
+div{
+    background:orange;
+    border-color:lightblue;
+    border-width:10px;
+    border-style:dotted;
+
+}
+
+
+p{
+    color:yellow;
+}
+span{
+    background:red;
+    color:black;
+}

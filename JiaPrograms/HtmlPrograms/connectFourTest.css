@@ -1,0 +1,12 @@
+td{
+    background: gray;
+    border:1px solid black;
+    height:20px;
+    width:100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 130px 10px 10px;
+    padding:40px;
+    height:10%;
+
+}

@@ -1,0 +1,35 @@
+.header{
+    background-color: white !important;
+
+}
+#services{
+    background-image:url("../img/ac9.jpeg");
+    text-align: center;
+    height: 400px;
+}
+
+.jumbotron{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+ 
+#ser_img{
+    height: 200px;
+    border-radius: 50%;
+}
+#col{
+    height: 60px;
+}
+
+#def_height{
+    height: 625px;
+    width: 550px;
+}
+#logo{
+    height: 80px;
+}
+#white{
+    color: white !important;
+}

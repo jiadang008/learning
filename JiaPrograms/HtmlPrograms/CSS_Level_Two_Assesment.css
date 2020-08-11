@@ -1,0 +1,44 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+#colorone{
+    border:2px solid #F8BDC4;
+    background-color: #F8BDC4;
+    width:10%;
+    margin: auto;
+    padding:20px;
+    height:30%;
+}
+#colortwo{
+    border:2px solid  #89BBFE;
+    background-color: #89BBFE;
+    width:10%;
+    margin: -260px 60px 60px 40px;
+    padding:20px;
+    height:30%;
+}
+#colorthree{
+    border:2px solid  #CFDEE7;
+    background-color:  #CFDEE7;
+    width:10%;
+    margin:-320px 100px 80px 325px;
+    padding:20px;
+    height:30%;
+}
+#colorfour{
+    border:2px solid #D0E8D6;
+    background-color:#D0E8D6;
+    width:10%;
+    margin:-340px 60px 700px 910px;
+    padding:20px;
+    height:31%;
+}
+#colorfive{
+    border:2px solid #1985A1;
+    background-color:#1985A1;
+    margin:-966px 100px 700px 1200px;
+    width:10%;
+    padding:20px;
+    height:32%;
+}

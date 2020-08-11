@@ -1,0 +1,51 @@
+*{
+    background-color:lightblue;
+}
+h1{
+    border:2px solid black;
+}
+#first{
+    background:yellow;
+}
+h2{
+    color:purple;
+}
+#third{
+    color:purple;
+    text-decoration:overline;
+}
+#fourth{
+    color:blue;
+    text-decoration:underline;
+}
+#text1{
+    background:white;
+    color:black;
+    border:2px solid gray;
+}
+#email{
+    background:white;
+    color:black;
+    border:2px solid rgb(131, 32, 32);
+}
+#password{
+    background:white;
+    color:black;
+    border:2px solid rgb(131, 32, 32);
+}
+#submit{
+    color:black;
+    border:2px solid rgb(131, 32, 32);
+}
+#text2{
+    background:white;
+    color:black;
+    border:2px solid gray;
+}
+#fifth{
+    background:yellow;
+}
+.firstdiv{
+    background:blue;
+    border:10px dashed yellow;
+}

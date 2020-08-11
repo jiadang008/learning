@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(24, 125, 219);
+    text-align: center;
+}
+div{
+    border:10px solid rgb(22, 179, 22);
+    border-top:0px ;
+}
